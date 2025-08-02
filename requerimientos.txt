@@ -1,0 +1,33 @@
+
+
+Requerimientos del proyecto (actualizado al 28/07/2025):
+
+1.- Agregar recetas de hielitos con sus ingredientes.
+   - Completado: Puedes registrar recetas y sus ingredientes.
+
+2.- Registro de ingredientes con cálculo automático de costo total y foto.
+   - Completado: El sistema calcula el costo total de cada ingrediente (cantidad x precio unitario) y permite subir foto.
+   - Completado: sumarizar el costo total de toda la receta (suma de todos los ingredientes).
+
+3.- Sección para ver recetas registradas con imagen y nombre.
+   - Completado: Lista visual de recetas con imagen y nombre.
+
+4.- Alta de reporte de orden de producción (reporte de producción).
+   - Completado: Puedes registrar órdenes de producción, seleccionar receta, modificar precios unitarios y registrar gastos.
+   - Completado: generación de PDF con todos los datos de la orden.
+
+5.- Reporte de ventas vinculado a orden de producción, trazabilidad y rentabilidad.
+   - Completado: Puedes registrar ventas vinculadas a una orden, con comentarios, cantidades vendidas/estropeadas y precio. Calcula rentabilidad por orden. Permite múltiples reportes de venta por orden. Vista general de órdenes y ventas implementada.
+   - Pendiente: exportar reporte de ventas a PDF.
+
+6.- Balance general (finanzas), ingresos y egresos históricos.
+   - Parcial: Las ventas y gastos de producción ya se registran y pueden consultarse, pero falta la vista y lógica de balance general y exportación a PDF.
+
+7.- Registro de gastos extra (retiros, inversiones, etc.).
+   - Pendiente: falta el formulario, historial y exportación a PDF.
+
+8.- Gráficas de BI (receta más exitosa, top 10, históricos).
+   - Pendiente: aún no se han implementado gráficas ni tablas de BI ni exportación a PDF.
+
+9.- Web responsiva y opción de instalar como app.
+   - Parcial: la app es funcional en web, pero falta optimización responsiva y configuración PWA para instalar en móvil.
